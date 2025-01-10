@@ -1,11 +1,10 @@
-import './App.css';
-import Hello from './components/Hello';
+import './App.css'
+import Sidenav from './components/SideNav'
 
 function App() {
   return (
     <>
-      <h1>brand0ny0rk</h1>
-      <Hello />
+    <Sidenav />
     </>
   )
 }
