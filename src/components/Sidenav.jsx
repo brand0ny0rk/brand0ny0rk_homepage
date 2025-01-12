@@ -12,7 +12,7 @@ const SideNav = () => {
             <AiOutlineMenu onClick={handleNav}className='absolute top-4 right-4 z-[99] md:hidden' />
             {
                 nav ? (
-                    <div className='fixed h-screen w-full bg-white/90 flex flex-col justify-center items-center z-[20]'>
+                    <div className='fixed h-screen w-full bg-black/90 flex flex-col justify-center items-center z-[20]'>
                         <a href="main" className='W-[75%] flex justify-center items'>
                             <AiOutlineHome size={20} />
                             <span className=''>Home</span>
